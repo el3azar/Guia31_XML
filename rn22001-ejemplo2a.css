@@ -1,0 +1,75 @@
+/* Estilo para el elemento <pais> */
+pais {
+    background-color: #e0f7fa; /* Fondo turquesa claro */
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #00acc1; /* Borde azul claro */
+}
+
+/* Estilo para el atributo nombre en <pais> */
+pais::before {
+    content: attr(nombre);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #006064; /* Color azul oscuro */
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Estilo para cada <departamento> */
+departamento {
+    background-color: #b2ebf2; /* Fondo azul muy claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #00bcd4; /* Borde un poco más oscuro */
+}
+
+/* Estilo para el atributo nombre en <departamento> */
+departamento::before {
+    content: attr(nombre);
+    font-size: 1.7rem;
+    color: #00796b;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el elemento <cabecera> */
+cabecera {
+    color: #00838f;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilo para el elemento <habitantes> */
+habitantes {
+    color: #004d40;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Estilo para el elemento <altura> */
+altura {
+    color: #00695c;
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: white;
+    background-color: #00796b;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #004d40;
+}

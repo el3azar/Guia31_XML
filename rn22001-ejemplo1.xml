@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<?xml-stylesheet type="text/css" href="rn22001-ejemplo1.css"?>
+
+<!-- ejemplo1.xml  SUCARNET -->
+
+<fichero>
+    <ficha id="1" fechaingreso="1/11/2012">
+        <nombre>Antonio</nombre>
+        <apellido>Barbero</apellido>
+        <direccion>Calle de Los Andes, 45</direccion>
+    </ficha>
+    <rn22001>
+        <datos id="2">
+            <nombre>Eleazar</nombre>
+            <telefono>12345678</telefono>
+        </datos>
+    </rn22001>
+    <!-- Enlace a index.html -->
+    <enlace> 
+        <a xmlns="http://www.w3.org/1999/xhtml" href="index.html">enlace</a>
+    </enlace>
+</fichero>

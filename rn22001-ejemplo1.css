@@ -1,0 +1,52 @@
+/* Estilo para el elemento <fichero> */
+fichero {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para cada <ficha> */
+ficha {
+    background-color: lightcoral;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Estilo para el nombre */
+nombre {
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Estilo para el apellido */
+apellido {
+    color: yellow;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Estilo para la dirección */
+direccion {
+    color: yellow;
+    font-size: 1.2rem;
+    display: block; /* Cambiado a block para que sea visible */
+    margin-top: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: white;
+    background-color: darkblue;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: navy;
+}

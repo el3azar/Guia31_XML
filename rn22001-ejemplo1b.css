@@ -1,0 +1,80 @@
+/* Estilo para el elemento <fichero> */
+fichero {
+    background-color: #e0f7fa; /* Color de fondo claro */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para cada <ficha> */
+ficha {
+    background-color: #ffccbc; /* Color de fondo coral claro */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #ff7043;
+}
+
+/* Estilo para los elementos <nombre> */
+nombre {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #26a69a;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Estilo para los elementos <apellido> */
+apellido {
+    color: #ffeb3b;
+    font-weight: bold;
+    background-color: #26a69a;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Estilo para los elementos <direccion> */
+direccion {
+    color: #ff7043;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilo para los elementos <dui>, <isss>, y <afp> */
+dui, isss, afp {
+    display: block;
+    padding: 5px;
+    background-color: #ffe082;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f57c00;
+}
+
+/* Estilo para los elementos <telefono> */
+telefono {
+    color: #00796b;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #ffffff;
+    background-color: #0288d1;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #01579b;
+}

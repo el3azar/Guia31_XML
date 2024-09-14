@@ -1,0 +1,15 @@
+{
+    "fichero": {
+      "ficha": {
+        "nombre": "Antonio",
+        "apellido": "Barbero",
+        "direccion": "Calle de Los Andes, 45"
+      }
+    },
+    "rn22001": {
+      "datos": {
+        "nombre": "Eleazar",
+        "telefono": 12345678
+      }
+    }
+  }
